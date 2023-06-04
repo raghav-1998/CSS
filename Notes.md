@@ -128,6 +128,13 @@ Ex:
 
 What style will be used when there is more than one style specified for an HTML element?
 
-So, an inline style has the highest priority, and will override external and internal styles and browser defaults.
+1. So, an inline style has the highest priority, and will override external and internal styles and browser defaults.
+
+**Note:** If we want to apply Internal CSS over inline during conflict, then mark **!important** with 
+the property in Internal CSS
+
+2. Resolution of Conflict b/w the Internal & External CSS property depends upon whether style tag comes first or link:
+    1. If style tag comes first, then value in internal CSS will dsiplay
+    2. Otherwise, value in external CSS will display..
 
 
