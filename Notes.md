@@ -50,7 +50,9 @@ h1{
 This styles text color of all h1 tag to red
 
 h1:selector
+
 color:attribute
+
 red:value
 
 1. The selector points to the HTML element you want to style.
