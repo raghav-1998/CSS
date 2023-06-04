@@ -71,8 +71,10 @@ To use inline styles, add the style attribute to the relevant element. The style
 
 Ex:
 
-<h1 style="color:blue;text-align:center;">This is a heading</h1>
-<p style="color:red;">This is a paragraph.</p>
+<body>
+    <h1 style="color:blue;text-align:center;">This is a heading</h1>
+    <p style="color:red;">This is a paragraph.</p>
+</body>
 
 2. **Internal CSS**:
 
@@ -83,6 +85,7 @@ Ex:
 
     <head>
         <style>
+
             body {
                 background-color: linen;
             }
