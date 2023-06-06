@@ -138,3 +138,80 @@ the property in Internal CSS
     2. Otherwise, value in external CSS will display..
 
 
+**CSS Selectors:**
+
+A CSS selector selects(or find) the HTML element(s) you want to style.
+
+We can divide CSS selectors into five categories:
+
+1. Simple selectors (select elements based on name, id, class)
+2. Combinator selectors (select elements based on a specific relationship between them)
+3. Pseudo-class selectors (select elements based on a certain state)
+4. Pseudo-elements selectors (select and style a part of an element)
+5. Attribute selectors (select elements based on an attribute or attribute value)
+
+1. Simple Selectors:
+
+    1. **The CSS element Selector**:
+
+        The element selector selects HTML elements based on the element name.
+
+        Example:
+
+        p {
+            text-align: center;
+            color: red;
+        }
+
+    2. **The CSS id Selector**:
+
+        1. The id selector uses the id attribute of an HTML element to select a specific element.
+        2. The id of an element is unique within a page, so the id selector is used to select one unique element!
+        3. To select an element with a specific id, write a hash (#) character, followed by the id of the      element.
+
+        Example:
+        The CSS rule below will be applied to the HTML element with id="para1": 
+
+        #para1 {
+            text-align: center;
+            color: red;
+        }
+
+    3. **The CSS class Selector**:
+
+        1. The class selector selects HTML elements with a specific class attribute.
+        2. To select elements with a specific class, write a period (.) character, followed by the class name.
+
+        Example:
+        Style all the HTML elements of class center
+
+        .center {
+            text-align: center;
+            color: red;
+        }
+
+        3. You can also specify that only specific HTML elements should be affected by a class.
+
+        Example:
+        Style all the <p> elements of class center
+
+        p.center {
+            text-align: center;
+            color: red;
+        }
+
+    4. **The CSS Grouping Selector**:
+
+        The grouping selector selects all the HTML elements with the same style definitions.
+
+        Example:
+        h1,h2 & p will style in same manner
+
+        h1, h2, p {
+            text-align: center;
+            color: red;
+        }
+
+        
+
+
