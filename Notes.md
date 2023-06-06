@@ -169,36 +169,42 @@ We can divide CSS selectors into five categories:
         2. The id of an element is unique within a page, so the id selector is used to select one unique element!
         3. To select an element with a specific id, write a hash (#) character, followed by the id of the      element.
 
-        Example:
-        The CSS rule below will be applied to the HTML element with id="para1": 
+            Example:
+            The CSS rule below will be applied to the HTML element with id="para1": 
 
-        #para1 {
-            text-align: center;
-            color: red;
-        }
+            #para1 {
+                
+                text-align: center;
+                color: red;
+
+            }
 
     3. **The CSS class Selector**:
 
         1. The class selector selects HTML elements with a specific class attribute.
         2. To select elements with a specific class, write a period (.) character, followed by the class name.
 
-        Example:
-        Style all the HTML elements of class center
+            Example:
+            Style all the HTML elements of class center
 
-        .center {
-            text-align: center;
-            color: red;
-        }
+            .center {
+
+                text-align: center;
+                color: red;
+
+            }
 
         3. You can also specify that only specific HTML elements should be affected by a class.
 
-        Example:
-        Style all the <p> elements of class center
+            Example:
+            Style all the p elements of class center
 
-        p.center {
-            text-align: center;
-            color: red;
-        }
+            p.center {
+
+                text-align: center;
+                color: red;
+
+            }
 
     4. **The CSS Grouping Selector**:
 
@@ -208,10 +214,12 @@ We can divide CSS selectors into five categories:
         h1,h2 & p will style in same manner
 
         h1, h2, p {
+
             text-align: center;
             color: red;
+
         }
 
-        
+
 
 
