@@ -1,0 +1,12 @@
+h1{
+    /*Using predefined name*/
+    background-color: yellow;
+    
+    /*Using rgba*/
+    color: rgba(199, 100, 199, 0.9);
+}
+
+#p1{
+    color: blue;
+    background-color: rgb(200, 150, 30);
+}
