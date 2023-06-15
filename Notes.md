@@ -221,5 +221,54 @@ We can divide CSS selectors into five categories:
         }
 
 
+**CSS Colors:**
+
+Colors are specified using predefined color names, or RGB, HEX, HSL, RGBA, HSLA values.
+
+1. **CSS Background Color:**
+
+You can set the background color for HTML elements:
+
+<h1 style="background-color:DodgerBlue;">Hello World</h1>
+<p style="background-color:Tomato;">Lorem ipsum...</p>
+
+
+2. **CSS Text Color:**
+
+You can set the color of text:
+
+<h1 style="color:Tomato;">Hello World</h1>
+<p style="color:DodgerBlue;">Lorem ipsum...</p>
+<p style="color:MediumSeaGreen;">Ut wisi enim...</p>
+
+
+**CSS RGB Colors:**
+
+An RGB color value represents RED, GREEN, and BLUE light sources.
+
+1. **RGB color:**
+
+In CSS, a color can be specified as an RGB value, using this formula:
+
+rgb(red, green, blue)
+
+Each parameter (red, green, and blue) defines the intensity of the color between 0 and 255.
+
+For example, rgb(255, 0, 0) is displayed as red, because red is set to its highest value (255) and the others are set to 0.
+
+To display black, set all color parameters to 0, like this: rgb(0, 0, 0).
+
+To display white, set all color parameters to 255, like this: rgb(255, 255, 255).
+
+2. **RGBA color:**
+
+RGBA color values are an extension of RGB color values with an alpha channel - which specifies the opacity for a color.
+
+An RGBA color value is specified with:
+
+rgba(red, green, blue, alpha)
+
+The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent at all)..
+
 
 
