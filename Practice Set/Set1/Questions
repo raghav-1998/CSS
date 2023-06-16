@@ -1,0 +1,11 @@
+Exercise 1: 
+Create a simple "div" with id "box". Add some Text content & set background color to "blue".
+
+Exercise 2:
+Create 3 headings of h1,h2 & h3. Give them all class "headings" & set color of "headings" to "red".
+
+Exercise 3:
+Create Button & set its background color:
+    a) green using css stylesheet
+    b) blue using <style> tag
+    c) pink using inline style
