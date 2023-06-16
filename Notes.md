@@ -270,5 +270,93 @@ rgba(red, green, blue, alpha)
 
 The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent at all)..
 
+**CSS Borders:**
+
+- **CSS Border Types:**
+
+    The border-style property specifies what kind of border to display.
+
+    The following values are allowed:
+
+    1. dotted - Defines a dotted border
+    2. dashed - Defines a dashed border
+    3. solid - Defines a solid border
+    4. double - Defines a double border
+    5. groove - Defines a 3D grooved border. The effect depends on the border-color value
+    6. ridge - Defines a 3D ridged border. The effect depends on the border-color value
+    7. inset - Defines a 3D inset border. The effect depends on the border-color value
+    8. outset - Defines a 3D outset border. The effect depends on the border-color value
+    9. none - Defines no border
+    10. hidden - Defines a hidden border
+    
+    The border-style property can have from one to four values (for the top border, right border, bottom border, and the left border).
+
+- **CSS Border Color:**
+
+    The border-color property is used to set the color of the four borders.
+
+    Ex:
+
+    p{
+
+        border-style: solid;
+        border-color: red;
+
+    }
+
+    **Specific Side Colors:**
+
+    The border-color property can have from one to four values (for the top border, right border, bottom border, and the left border). 
+
+    Ex:
+
+    p{
+
+        border-style: solid;
+        border-color: red green blue yellow; /* red top, green right, blue bottom and yellow left */
+
+    }
+
+- **Border Sides:**
+
+    From previous examples, it is possible to assign different value of a border property for different side.
+
+    p {
+        border-style: dotted solid double dashed; 
+    }
+
+    In above example 1st value(dotted) belongs to top, 2nd value(solid) belongs to right, 3rd value(double) belongs to bottom, 4th value(dashed) belongs to left
+
+    /* Three values */ 
+    p {
+        border-style: dotted solid double;
+    }
+
+    In above example 1st value(dotted) belongs to top, 2nd value(solid) belongs to right & left, 3rd value(double) belongs to bottom
+
+    /* Two values */
+    p {
+        border-style: dotted solid;
+    }
+
+    In above example 1st value(dotted) belongs to top & bottom, 2nd value(solid) belongs to right & left
+
+    /* One value */
+    p {
+        border-style: dotted;
+    }
+
+    In above example, all sides display dotted border.
 
 
+- **CSS Rounded Borders:**
+
+    The border-radius property is used to add rounded borders to an element:
+
+    Ex:
+    
+    p{
+
+        border-radius:5px;
+
+    }
