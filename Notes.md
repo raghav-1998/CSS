@@ -360,3 +360,104 @@ The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not tra
         border-radius:5px;
 
     }
+
+
+**CSS Padding:**
+
+Padding is used to create space around an element's content, inside of any defined borders.
+
+The CSS padding properties are used to generate space around an element's content, inside of any defined borders.
+
+- **Padding - Individual Sides:**
+
+    CSS has properties for specifying the padding for each side of an element:
+
+    1. padding-top
+    2. padding-right
+    3. padding-bottom
+    4. padding-left
+
+    Ex:
+
+    div {
+
+        padding-top: 50px;
+        padding-right: 30px;
+        padding-bottom: 50px;
+        padding-left: 80px;
+
+    }
+
+- **Padding Shorthand Properties:**
+
+    1. 1st Case;
+
+        div {
+
+            padding: 25px 50px 75px 100px;
+
+        }
+
+        1. top padding is 25px
+        2. right padding is 50px
+        3. bottom padding is 75px
+        4. left padding is 100px
+
+    2. 2nd Case:
+
+        div {
+
+            padding: 25px 50px 75px;
+
+        }
+
+        1. top padding is 25px
+        2. right and left paddings are 50px
+        3. bottom padding is 75px
+
+    3. 3rd Case:
+
+        div {
+
+            padding: 25px 50px;
+
+        }
+
+        1. top and bottom paddings are 25px
+        2. right and left paddings are 50px
+
+    4. 4th Case:
+
+        div {
+
+            padding: 25px;
+
+        }
+
+        - all four paddings are 25px
+
+
+**Padding and Element Width:**
+
+div {
+
+  width: 300px;
+  padding: 25px;
+
+}
+
+The CSS width property specifies the width of the element's content area. The content area is the portion inside the padding, border, and margin of an element (the box model).
+
+So, if an element has a specified width, the padding added to that element will be added to the total width of the element.
+
+Here, the div element is given a width of 300px. However, the actual width of the div element will be 350px (300px + 25px of left padding + 25px of right padding)
+
+To keep the width at 300px, no matter the amount of padding, you can use the box-sizing property. This causes the element to maintain its actual width; if you increase the padding, the available content space will decrease.
+
+div {
+
+  width: 300px;
+  padding: 25px;
+  box-sizing: border-box;
+  
+}
