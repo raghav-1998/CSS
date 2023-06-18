@@ -442,6 +442,7 @@ The CSS padding properties are used to generate space around an element's conten
 div {
 
   width: 300px;
+  
   padding: 25px;
 
 }
@@ -457,7 +458,9 @@ To keep the width at 300px, no matter the amount of padding, you can use the box
 div {
 
   width: 300px;
+
   padding: 25px;
+
   box-sizing: border-box;
-  
+
 }
