@@ -1,0 +1,55 @@
+#individualProperty{
+    border: 2px solid;
+    background-color: lightblue;
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+}
+
+#fourValue{
+    border: 3px dotted;
+    background-color: red;
+    padding: 25px 50px 75px 100px;
+}
+
+#threeValue{
+    border: 4px dashed;
+    background-color: green;
+    padding: 25px 50px 75px;
+}
+
+#twoValue{
+    border: 5px double;
+    background-color: blue;
+    padding: 25px 50px;
+}
+
+#oneValue{
+    border: 6px groove;
+    background-color: yellow;
+    padding: 25px;
+}
+
+div.ex1 {
+    width: 300px;
+    background-color: yellow;
+}
+  
+div.ex2 {
+    width: 300px;
+    padding: 25px;
+    background-color: lightblue;
+}
+
+div.ex3 {
+    width: 300px;
+    background-color: yellow;
+}
+  
+div.ex4 {
+    width: 300px;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: lightblue;
+}
